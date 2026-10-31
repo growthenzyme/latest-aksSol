@@ -21,7 +21,11 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "AKS Solutions",
-  description: "Professional Marble Polishing, Stone Restoration & Cleaning Services",
+  description:
+    "Professional Marble Polishing, Stone Restoration & Cleaning Services",
+  icons: {
+    icon: "/images/logo.jpg",
+  },
 };
 
 export default function RootLayout({

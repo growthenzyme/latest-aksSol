@@ -1,16 +1,22 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Footer() {
   return (
-    <footer className="bg-white px-5 py-[58px] sm:px-8 lg:px-12 xl:px-20 border-t border-[#E8EAED]">
-      <div className="mx-auto max-w-[1200px] flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="text-[#667085] font-normal text-[12px] leading-[1.5] text-center sm:text-left">
-          © 2026 AKS Solutions Bahrain. All Rights Reserved.
-        </p>
-        <p className="text-[#667085] font-normal text-[12px] leading-[1.5] text-center sm:text-right flex items-center justify-center sm:justify-end gap-1">
-          Designed with
-          <span className="text-[#FF0000]" aria-hidden="true">♥</span>
-          for Excellence
+    <footer className="border-t border-[#E8EAED] bg-white px-5 py-[58px] sm:px-8 lg:px-12 xl:px-20">
+      <div className="mx-auto flex max-w-[1200px] flex-col items-center justify-between gap-4 sm:flex-row">
+        <p className="text-center text-[12px] font-normal leading-[1.5] text-[#667085] sm:text-left">
+          © 2026{" "}
+          <Link
+            href="https://growthenzyme.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors duration-200 hover:text-[#25232A] hover:underline"
+          >
+            GrowthEnzyme
+          </Link>
+          .
         </p>
       </div>
     </footer>

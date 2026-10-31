@@ -60,14 +60,22 @@ export default function Hero() {
 {/* Experience Highlight */}
 <div className="mt-7 flex items-center gap-4 border-l-[3px] border-[#dcb735] pl-4">
   <div>
-    <p className="text-[30px] font-black leading-none text-[#dcb735]">
-      3+
-    </p>
-    <p className="mt-1 text-[12px] font-bold uppercase tracking-wide text-white">
-      YEARS OF EXPERIENCE
-    </p>
-  </div>
+  <p className="text-[30px] font-black leading-none text-[#dcb735]">
+    5+
+  </p>
+  <p className="mt-1 text-[12px] font-bold uppercase tracking-wide text-white">
+    YEARS OF EXPERIENCE
+  </p>
+</div>
 
+<div>
+  <p className="text-[30px] font-black leading-none text-[#dcb735]">
+    1000+
+  </p>
+  <p className="mt-1 text-[12px] font-bold uppercase tracking-wide text-white">
+    HAPPY CLIENTS
+  </p>
+</div>
   <div className="h-[42px] w-px bg-white/20" />
 
   <p className="max-w-[300px] text-[15px] font-medium leading-6 text-[#cfcfcf]">

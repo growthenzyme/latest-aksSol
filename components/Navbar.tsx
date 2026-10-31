@@ -60,7 +60,7 @@ export default function Navbar() {
             {/* Phone */}
             <div className="flex items-center gap-2 font-semibold text-[#dcb735] text-[12px]">
               <Phone size={18} />
-              <span>+973 3366 1188</span>
+              <span>+973 6667 8078</span>
             </div>
 
             {/* Social */}
