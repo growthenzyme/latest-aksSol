@@ -172,7 +172,7 @@ export default function ContactUs() {
               <ContactInfoCard
                 icon={<Mail size={22} strokeWidth={2} />}
                 label="EMAIL ADDRESS"
-                value="info@akssolution.co"
+                value="info@akssolution.com"
               />
               <ContactInfoCard
                 icon={<MapPin size={22} strokeWidth={2} />}
