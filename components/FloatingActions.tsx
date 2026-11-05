@@ -8,7 +8,7 @@ export default function FloatingActions() {
       {/* Desktop side buttons */}
       <div className="fixed right-[15px] top-[48%] z-[1000] hidden flex-col md:flex">
         <a
-          href="https://wa.me/97333661188"
+          href="https://wa.me/97366678078"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-[72px] w-[75px] flex-col items-center justify-center rounded-[8px] bg-[#55B52B] text-white shadow-[0_4px_20px_rgba(85,181,43,0.3)] transition-colors"
@@ -21,7 +21,7 @@ export default function FloatingActions() {
         </a>
 
         <a
-          href="tel:+97333661188"
+          href="tel:+97366678078"
           className="mt-2 flex h-[72px] w-[75px] flex-col items-center justify-center rounded-[8px] border-t border-white/20 bg-[#55B52B] text-white shadow-[0_4px_20px_rgba(85,181,43,0.3)] transition-colors"
           aria-label="Call Now"
         >
@@ -34,7 +34,7 @@ export default function FloatingActions() {
 
       {/* Mobile / Bottom floating WhatsApp */}
       <a
-        href="https://wa.me/97333661188"
+        href="https://wa.me/97366678078"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"

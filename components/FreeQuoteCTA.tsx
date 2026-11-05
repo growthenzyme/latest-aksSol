@@ -39,7 +39,7 @@ export default function FreeQuoteCTA() {
         {/* Right - Buttons */}
         <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto shrink-0">
         <a
-  href="https://wa.me/97333661188"
+  href="https://wa.me/97366678078"
   target="_blank"
   rel="noopener noreferrer"
   className="flex h-[58px] w-[230px] shrink-0 items-center justify-center gap-3 rounded-[8px] bg-[#55B52A] text-white font-bold uppercase text-[13px] leading-[1.2] shadow-[0_4px_15px_rgba(85,181,42,0.3)] transition-all duration-300 hover:bg-[#4A9E24] hover:shadow-[0_6px_20px_rgba(85,181,42,0.4)] hover:-translate-y-[1px]"

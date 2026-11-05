@@ -92,7 +92,7 @@ export default function Hero() {
               </a>
 
               {/* WhatsApp */}
-              <a href="https://wa.me/97333661188" className="flex h-[60px] items-center justify-center gap-3 rounded-md border border-[#dcb735] bg-transparent px-7 text-base font-bold text-white transition duration-300 hover:bg-[#dcb735] hover:text-black">
+              <a href="https://wa.me/97366678078" target="_blank" rel="noopener noreferrer" className="flex h-[60px] items-center justify-center gap-3 rounded-md border border-[#dcb735] bg-transparent px-7 text-base font-bold text-white transition duration-300 hover:bg-[#dcb735] hover:text-black">
                 <MessageCircle size={24} strokeWidth={2} />
                 WHATSAPP NOW
               </a>
