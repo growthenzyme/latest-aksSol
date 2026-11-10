@@ -58,10 +58,10 @@ export default function Navbar() {
           <div className="flex items-center gap-6">
 
             {/* Phone */}
-            <div className="flex items-center gap-2 font-semibold text-[#dcb735] text-[12px]">
+            <a href="tel:+97366678078" className="flex items-center gap-2 font-semibold text-[#dcb735] text-[12px] transition hover:text-white">
               <Phone size={18} />
               <span>+973 6667 8078</span>
-            </div>
+            </a>
 
             {/* Social */}
             <div className="flex items-center gap-3 ">
@@ -231,6 +231,24 @@ export default function Navbar() {
         >
           CONTACT US
         </a>
+
+        <div className="flex flex-col gap-2 pt-2 border-t border-gray-100">
+          <a
+            href="tel:+97366678078"
+            className="flex items-center gap-2 text-[14px] font-bold text-[#dcb735]"
+          >
+            <Phone size={16} />
+            <span>+973 6667 8078</span>
+          </a>
+          <a
+            href="https://wa.me/97366678078"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[13px] font-semibold text-[#55B52A]"
+          >
+            Chat on WhatsApp
+          </a>
+        </div>
 
         <button className="mx-auto w-[350px] rounded-md -ml-5 bg-[#5fba28] px-4 py-3 text-[13px] font-bold text-white">
   GET FREE QUOTE

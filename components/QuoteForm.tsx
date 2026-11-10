@@ -47,10 +47,11 @@ export default function QuoteForm() {
       newErrors.name = "Name must be at least 2 characters.";
     }
 
+    const cleanPhone = phone.replace(/[\s\-()]/g, "");
     if (!phone) {
       newErrors.phone = "Please enter your phone number.";
-    } else if (!/^[+]?973[\s-]?[0-9]{8}$/.test(phone.replace(/\s/g, ""))) {
-      newErrors.phone = "Please enter a valid phone number.";
+    } else if (!/^(\+?973|00973)?[0-9]{8}$/.test(cleanPhone)) {
+      newErrors.phone = "Please enter a valid phone number (e.g. +973 6667 8078).";
     }
 
     if (!email) {
@@ -116,7 +117,7 @@ export default function QuoteForm() {
           <input
   type="tel"
   name="phone"
-  placeholder="Phone Number"
+  placeholder="+973 6667 8078"
   required
   className="w-full h-[50px] bg-white border border-[#E1E5EA] rounded-[9px] px-[18px] text-[15px] text-[#14243A] leading-[1.2] placeholder-[#B0B8C1] focus:outline-none focus:border-[#55B52A] focus:ring-1 focus:ring-[#55B52A] transition-colors"
 />
