@@ -19,7 +19,7 @@ export default function Navbar() {
     <>
     
       {/* Announcement Bar */}
-    <div className="bg-[#111111] border-b border-[#252525]">
+    {/* <div className="bg-[#111111] border-b border-[#252525]">
   <div className="mx-auto flex h-[80px] lg:h-[40px] max-w-[1400px] items-center justify-center gap-1 px-6 text-[14px] lg:text-[12px] flex-col sm:flex-row">
 
     <div className="flex items-center gap-1">
@@ -37,7 +37,7 @@ export default function Navbar() {
     </a>
 
   </div>
-</div>
+</div> */}
 
       {/* Contact / Social Bar */}
       <div className="hidden bg-[#111111] md:block">
